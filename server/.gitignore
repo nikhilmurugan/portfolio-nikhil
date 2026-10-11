@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+
+# Environment files
+.env
+.env.*
+*.local
+!.env.example
+
+# Secrets & Private keys
+*.pem
+*.key
+*.cert
+*.crt
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+
+# Editor files
+.vscode
+.idea
+.DS_Store
