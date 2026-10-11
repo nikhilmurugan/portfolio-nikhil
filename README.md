@@ -41,6 +41,7 @@ Features
   assets.
 
 Tech Stack
+
 Frontend
 - React
 - TypeScript
@@ -49,6 +50,7 @@ Frontend
 - Framer Motion
 - GSAP
 - Lenis
+
 Backend
 - Node.js
 - Express
@@ -62,6 +64,7 @@ Integration & Tooling
 - EmailJS for browser-based email integration, where configured
 
 Author
+
 Nikhil Murugan D P
 
 Built to present my work, document my growth, and connect with the
