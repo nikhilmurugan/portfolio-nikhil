@@ -20,7 +20,7 @@ selected projects, and professional contact links.
 
 ## Highlights
 
--   **Premium dark UI** with gradient accents and glass inspired
+-   **Premium dark UI** with gradient accents and glass-inspired
     components.
 -   **Responsive design** for desktop, tablet, and mobile screens.
 -   **Interactive motion** and polished transitions.
