@@ -1,81 +1,52 @@
-# Nikhil Murugan D P — Portfolio 2027
-
-Premium foundation for a production portfolio. Phase 1 delivers the design system, routing, hero experience, motion layer, and API skeleton.
-
-## Architecture
-
-```
-portfolio/
-  client/                 Vite + React 19 + TypeScript
-    src/
-      assets/             Replace portrait here / public
-      components/         UI, layout, magic, sections
-      sections/           Page-level compositions live under components/sections
-      pages/              Route screens (lazy-loaded)
-      layouts/            Root chrome + page transitions
-      hooks/              Lenis, magnetic, motion, media
-      services/           REST client
-      animations/         Framer variants + GSAP helpers
-      constants/          Site + navigation
-      data/               Stats, socials, copy
-      styles/             Tailwind v4 design tokens
-      lib/                cn() and shared utilities
-      types/              Shared TypeScript contracts
-  server/                 Express + TypeScript
-    src/
-      routes/
-      controllers/
-      models/             MongoDB Atlas schemas
-      middleware/
-      config/             env + database
-      utils/
-      services/           Future CMS / AI chatbot seams
-```
-
-## Design system
-
-- Canvas: `#050505`
-- Accents: electric blue, violet, cyan, white glass, soft gray
-- Type: Inter Tight (display), Geist (body), Space Grotesk (accent), JetBrains Mono (code)
-- Motion: Framer Motion + GSAP + Lenis, gated by `prefers-reduced-motion`
-
-Replace the circular portrait by adding `client/public/portrait.jpg`. Drop a PDF at `client/public/resume.pdf` for the download action.
-
-## Setup
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-```bash
-cd server
-copy .env.example .env
-npm install
-npm run dev
-```
-
-Client: `http://localhost:5173`  
-API: `http://localhost:5000/api/health`
-
-Vite proxies `/api` to the Express server during development.
-
-## API placeholders
-
-| Method | Path | Purpose |
-| --- | --- | --- |
-| GET | `/api/health` | Service health |
-| GET | `/api/projects` | Future case studies |
-| POST | `/api/contact` | Future contact + CMS |
-| GET | `/api/resume` | Future resume metadata |
-
-MongoDB Atlas connection is optional until `MONGODB_URI` is set.
-
-## Scripts
-
-Root:
-
-- `npm run dev` — frontend
-- `npm run dev:server` — API
-- `npm run build` — client + server production builds
+Nikhil Murugan D P --- Portfolio
+A modern personal portfolio showcasing my software development skills,
+selected projects, technical interests, and academic journey.
+Overview
+This portfolio brings together my profile, skills, education, and
+projects in one place. It features a dark visual theme, refined
+typography, gradient accents, glass-style UI elements, and motion
+effects, with a responsive experience across desktop, tablet, and mobile
+screens.
+Highlights
+- Professional introduction --- an overview of my technical focus
+  and career direction.
+- About and education --- my background, academic journey, and
+  development interests.
+- Skills showcase --- technologies and tools organized into clear
+  categories.
+- Featured projects --- selected work with project details where
+  available.
+- Responsive design --- an interface adapted for desktop, tablet,
+  and mobile.
+- Interactive motion --- animations and transitions designed to
+  support the experience.
+Featured Projects
+- ElectraNav --- an intelligent EV trip-planning project focused
+  on route planning, charging stations, and energy analysis.
+- ResearchPilotAI --- a research-assistance project exploring
+  AI-supported research workflows.
+- TwinSphere --- a project featured in the portfolio showcase.
+- Nexora --- a multi-tenant SaaS workflow project.
+- MeetingMind-AI --- a project exploring retrieval-augmented
+  generation (RAG) and agentic AI concepts.
+Tech Stack
+Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- Lenis
+Backend
+- Node.js
+- Express
+- TypeScript
+- MongoDB / MongoDB Atlas (where configured)
+Integrations & Tooling
+- Git and GitHub --- source control and repository hosting.
+- Vite --- frontend development and production build tooling.
+- MongoDB Atlas --- database service where configured.
+- EmailJS --- email service integration used by the contact form.
+Author
+Nikhil Murugan D P
