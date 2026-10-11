@@ -1,34 +1,45 @@
 Nikhil Murugan D P --- Portfolio
-A modern personal portfolio showcasing my software development skills,
-selected projects, technical interests, and academic journey.
+
+A modern, responsive portfolio showcasing my software development
+skills, technical interests, selected projects, and academic journey.
+Designed with a polished dark interface, refined typography, gradient
+accents, and interactive motion.
+
+About
+I'm a software development student interested in building useful
+applications, intelligent systems, and scalable software. This portfolio
+brings my background, technical skills, and project work together in one
+place.
+
 Overview
-This portfolio brings together my profile, skills, education, and
-projects in one place. It features a dark visual theme, refined
-typography, gradient accents, glass-style UI elements, and motion
-effects, with a responsive experience across desktop, tablet, and mobile
-screens.
+The website presents a concise view of my profile and development
+journey, with dedicated sections for my introduction, education, skills,
+selected projects, and professional contact links.
+
 Highlights
-- Professional introduction --- an overview of my technical focus
-  and career direction.
-- About and education --- my background, academic journey, and
-  development interests.
-- Skills showcase --- technologies and tools organized into clear
-  categories.
-- Featured projects --- selected work with project details where
+- Premium dark UI with gradient accents and glass-inspired
+  components.
+- Responsive design for desktop, tablet, and mobile screens.
+- Interactive motion and polished transitions.
+- Skills showcase organized around technologies and development
+  areas.
+- Project highlights with dedicated details where available.
+- Professional profile links for connecting and exploring my work.
+- Clear personal presentation focused on skills, projects, and
+  continuous learning. 
+
+Features
+- Hero section introducing my technical focus and career direction.
+- About section describing my background and interests.
+- Academic journey and education timeline.
+- Technical skills presented in structured categories.
+- Selected projects with individual project detail pages where
   available.
-- Responsive design --- an interface adapted for desktop, tablet,
-  and mobile.
-- Interactive motion --- animations and transitions designed to
-  support the experience.
-Featured Projects
-- ElectraNav --- an intelligent EV trip-planning project focused
-  on route planning, charging stations, and energy analysis.
-- ResearchPilotAI --- a research-assistance project exploring
-  AI-supported research workflows.
-- TwinSphere --- a project featured in the portfolio showcase.
-- Nexora --- a multi-tenant SaaS workflow project.
-- MeetingMind-AI --- a project exploring retrieval-augmented
-  generation (RAG) and agentic AI concepts.
+- Responsive navigation and page transitions.
+- Contact section with available contact options.
+- Optional resume access when a resume PDF is provided in the public
+  assets.
+
 Tech Stack
 Frontend
 - React
@@ -42,11 +53,16 @@ Backend
 - Node.js
 - Express
 - TypeScript
-- MongoDB / MongoDB Atlas (where configured)
-Integrations & Tooling
-- Git and GitHub --- source control and repository hosting.
-- Vite --- frontend development and production build tooling.
-- MongoDB Atlas --- database service where configured.
-- EmailJS --- email service integration used by the contact form.
+- MongoDB / MongoDB Atlas, where configured
+
+Integration & Tooling
+- Git and GitHub for version control
+- npm for package management
+- Vite for development and production builds
+- EmailJS for browser-based email integration, where configured
+
 Author
 Nikhil Murugan D P
+
+Built to present my work, document my growth, and connect with the
+developer community.
