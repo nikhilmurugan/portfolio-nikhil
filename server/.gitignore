@@ -1,27 +1,35 @@
 # Dependencies
-node_modules
+node_modules/
 
-# Build outputs
-dist
+# Production build outputs
+dist/
+build/
+out/
 
-# Environment files
+# Environment files and credentials
+*.local
 .env
 .env.*
-*.local
 !.env.example
 
-# Secrets & Private keys
+# Secrets and private keys
 *.pem
 *.key
 *.cert
 *.crt
 
+# Local secret directories
+secrets/
+credentials/
+
 # Debug logs
-logs
+logs/
 *.log
 npm-debug.log*
 
-# Editor files
-.vscode
-.idea
+# OS and editor files
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

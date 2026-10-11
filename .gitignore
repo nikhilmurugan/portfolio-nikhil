@@ -1,13 +1,13 @@
 # Dependencies
-node_modules
+node_modules/
 .pnp
 .pnp.js
 
 # Production build outputs
-dist
-dist-ssr
-build
-out
+dist/
+dist-ssr/
+build/
+out/
 
 # Environment files and credentials
 *.local
@@ -16,14 +16,18 @@ out
 !.env.example
 !**/.env.example
 
-# Secrets & Private keys
+# Secrets and private keys
 *.pem
 *.key
 *.cert
 *.crt
 
+# Local secret directories
+secrets/
+credentials/
+
 # Debug logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -31,14 +35,14 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Tooling caches
-.vite
+.vite/
 *.tsbuildinfo
-coverage
+coverage/
 
-# OS and Editor files
+# OS and editor files
 .DS_Store
 Thumbs.db
-.idea
+.idea/
 .vscode/*
 !.vscode/extensions.json
 *.suo
